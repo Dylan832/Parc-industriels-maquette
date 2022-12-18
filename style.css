@@ -1,0 +1,628 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  max-width: 1920px;
+  margin: auto;
+}
+/* ------------------HEADER----------------------------------- */
+header {
+  background-color: #f2f2f2;
+  justify-content: center;
+}
+#header-title {
+  font-size: 4.5rem;
+  font-weight: normal;
+  width: 60%;
+  margin: auto;
+  padding: 3% 0;
+  text-align: center;
+}
+/* -------------------MAIN------------------------------- */
+main {
+  display: flex;
+  flex-direction: column;
+}
+/* ------------------PREMIERE SECTION--------------------------------s */
+#first-section {
+  text-align: center;
+  background-color: #f2f2f2;
+  height: 625px;
+}
+.first-section__img-background {
+  width: 60%;
+  height: 428px;
+  object-fit: cover;
+}
+.first-section__center {
+  display: flex;
+  position: relative;
+  bottom: 265px;
+  justify-content: center;
+}
+/* --------------------IMAGE DE LA FEMME---------------------------------------------6 */
+.first-section__img-woman {
+  width: 383px;
+  height: 389px;
+  object-fit: cover;
+  object-position: top;
+  display: flex;
+  justify-content: center;
+}
+/* ------------------------CARRE DE TEXTE-----------------------------------------6 */
+
+.first-section__center__text {
+  width: 383px;
+  height: 389px;
+  background-color: white;
+  margin-left: 1%;
+  font-size: 1.25rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.btn-1 {
+  display: inline-block;
+  border: 2px solid black;
+  color: #000;
+  font-size: 0.875rem;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  padding: 4% 10%;
+  margin: 9% auto 0;
+}
+
+/* ----------------------DEUXIEME SECTION-------------------------- */
+#second-section {
+  background-color: #f2f2f2;
+  padding: 3% 0;
+}
+.second-section__center {
+  width: 60%;
+  display: flex;
+  margin: auto;
+}
+/* ------------------------------TEXTE-------------------------------------- */
+
+.second-section__center__text {
+  width: 60%;
+  text-align: center;
+  padding: 3%;
+}
+.second-section__center__text__title {
+  font-size: 3rem;
+  margin: 10% 17% 0;
+  font-family: "Titillium Web", sans-serif;
+  line-height: 1.1;
+}
+.second-section__center__text-one {
+  font-size: 1.25rem;
+  letter-spacing: 2px;
+  margin: 3% 19% 0;
+  line-height: 1.5;
+}
+.second-section__center__text-two {
+  margin: 9% 0 0;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+}
+.btn-2 {
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  font-size: 0.875rem;
+  letter-spacing: 2px;
+  color: #000;
+  border: 2px solid black;
+  padding: 2% 5%;
+  margin: 5% auto 0;
+}
+/* -------------------IMAGE----------------------------------------------6 */
+
+.second-section__center__img {
+  width: 40%;
+}
+/* -----------------TROISIEME SECTION------------------------------ */
+
+#third-section {
+  background-color: #000;
+  color: #fff;
+  padding: 3% 0;
+}
+.third-section__center {
+  width: 60%;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+}
+/* -------------------------TEXTE----------------------------------------6 */
+
+.third-section__center__text {
+  text-align: center;
+  padding: 2%;
+}
+.third-section__center__text-one {
+  font-size: 1.25rem;
+  margin: 2% 1% 0;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.third-section__center__text__title {
+  font-size: 2rem;
+  margin: 2% 1% 0;
+  font-family: "Titillium Web", sans-serif;
+}
+.third-section__center__text-two {
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  margin: 2% 14% 0;
+  line-height: 1.5;
+}
+/* --------------------------CARDE AVEC SVG---------------------------------------6 */
+
+.svg {
+  height: 64px;
+}
+.third-section__center__svg {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 2%;
+}
+.third-section__center__svg--card {
+  padding: 2%;
+  width: 33%;
+  height: 307px;
+  box-sizing: border-box;
+}
+.third-section__center__svg__title {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 2rem;
+  margin: 11% auto 0;
+  line-height: 1.1;
+}
+.third-section__center__svg__text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  margin: 7% auto 0;
+}
+/* ----------------------QUATRIEME SECTION------------------------------------ */
+
+#fourth-section {
+  background-color: #f2f2f2;
+  display: flex;
+  padding: 4% 0;
+}
+/* --------------------TEXTE---------------------------------------------6 */
+
+.fourth-section__text {
+  width: 32%;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.fourth-section__title {
+  font-size: 1.25rem;
+  margin: 4% 0 0;
+  letter-spacing: 2px;
+}
+.fourth-section__text-one {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  margin: 4% 0 0;
+}
+.btn-3 {
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  font-size: 0.875rem;
+  letter-spacing: 2px;
+  color: #000;
+  border: 2px solid black;
+  padding: 2% 5%;
+  margin: 5% auto 0;
+}
+/* ---------------------------IMAGE--------------------------------------6 */
+
+.fourth-section__img {
+  width: 35%;
+  height: 508px;
+  object-fit: cover;
+  object-position: top;
+}
+/* -------------------------DEUXIEME TEXTE----------------------------------------6 */
+
+.fourth-section__second-text {
+  width: 32%;
+  padding: 2%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+/* -----------------CINQUIEME SECTION------------------------------------- */
+
+#fifth-section {
+  background-color: #000;
+  padding: 2% 0 0;
+  color: #fff;
+}
+/* ----------------------------TEXTE-------------------------------------6 */
+
+.fifth-section__text {
+  text-align: center;
+  padding: 1%;
+}
+.fifth-section__text-one {
+  font-size: 1.25rem;
+  margin: 1% 1% 0;
+  font-weight: bold;
+}
+.fifth-section__title {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 2.25rem;
+  margin: 1% 1% 0;
+}
+/* ---------------------------IMAGE--------------------------------------6 */
+
+.fifth-section__image {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1%;
+}
+.img {
+  height: 287px;
+  width: 25%;
+}
+/* -----------------SIXIEME SECTION---------------------------- */
+
+#sixth-section {
+  padding: 2.5% 0;
+}
+.sixth-section__center {
+  display: flex;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+/* ------------------------IMAGE-----------------------------------------6 */
+
+.sixth-section__center__img {
+  width: 50%;
+}
+/* -----------------------------TEXTE------------------------------------6 */
+
+.sixth-section__center__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 2% 2%;
+  width: 50%;
+}
+.sixth-section__center__text-one {
+  font-size: 1.25rem;
+  margin: 0 4%;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.sixth-section__center__text__title {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 2.25rem;
+  margin: 4% 4% 0;
+  line-height: 1.1;
+}
+.sixth-section__center__text-two {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  margin: 6% 4% 0;
+  line-height: 1.5;
+}
+.btn-4 {
+  display: inline-block;
+  border: 2px solid black;
+  color: #000;
+  font-size: 0.875rem;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 2px;
+  padding: 2% 6%;
+  margin: 4% auto 0;
+}
+/* ------------------------FOOTER----------------------- */
+
+footer {
+  background-color: #000;
+  color: #fff;
+}
+#seventh-section {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  padding: 3% 0;
+  text-align: center;
+}
+/* --------------------------TEXTE---------------------------------------6 */
+
+.seventh-section__div-one {
+  flex: 1;
+  padding: 3% 5%;
+}
+.seventh-section__div-one__text-one {
+  font-size: 1.125rem;
+}
+.seventh-section__div-one__text-two {
+  font-size: 1.25rem;
+  margin: 7% 0 0;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  font-style: normal;
+}
+/* -----------------------------DEUXIEME TEXTE------------------------------------6 */
+
+.seventh-section__div-two {
+  flex: 1;
+  padding: 3% 5%;
+}
+.seventh-section__div-two__title {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 2.25rem;
+}
+.seventh-section__div-two__text-one {
+  margin: 5% 0 0;
+}
+.contact {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
+}
+/* --------------------------DEUXIEME FOOTER---------------------------------------6 */
+
+.real-footer {
+  background-color: #333333;
+  text-align: center;
+  padding: 1% 0;
+}
+.real-footer__text {
+  padding: 1%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8rem;
+}
+.real-footer__text a {
+  color: #82c0e9;
+}
+/* --------------------RESPONSIVE PC PORTABLE--------------------------- */
+
+@media screen and (max-width: 1440px) and (min-width: 769px) {
+  .first-section__img-background,
+  .second-section__center {
+    width: 90%;
+  }
+}
+/* ---------------------------RESPONSIVE TABLETTE--------------------------------------6 */
+
+@media screen and (max-width: 768px) and (min-width: 426px) {
+  #header-title,
+  .first-section__img-background {
+    width: 100%;
+  }
+  #header-title {
+    padding: 10% 3% 3%;
+  }
+  /* -----------------PREMIERE SECTION TABLETTE--------------------------- */
+
+  .first-section__img-woman {
+    width: 350px;
+    height: 289px;
+  }
+  .first-section__center__text {
+    width: 350px;
+    height: 289px;
+  }
+  /* ---------------DEUXIEME SECTION TABLETTE--------------------------------------------------6 */
+
+  .second-section__center {
+    width: 90%;
+  }
+  /* -----------------TROISIEME SECTION TABLETTE------------------------------------------------6 */
+
+  .third-section__center {
+    width: 90%;
+  }
+  /* --------------QUATRIEME SECTION TABLETTE---------------------------------------------------6 */
+
+  #fourth-section {
+    flex-wrap: wrap;
+  }
+  .fourth-section__text,
+  .fourth-section__img {
+    width: 50%;
+    height: 388px;
+  }
+  .fourth-section__img {
+    padding: 1%;
+  }
+  .fourth-section__second-text {
+    width: 100%;
+  }
+  .fourth-section__GovernmentBuilding {
+    margin-top: 5%;
+  }
+  .img {
+    width: 50%;
+  }
+  /* ------------------SIXIEME SECTION TABLETTE-----------------------------------------------6 */
+
+  .sixth-section__center {
+    width: 90%;
+  }
+  .sixth-section__center__img {
+    object-fit: contain;
+  }
+  /* ------------------SEPTIEME SECTION TABLETTE-----------------------------------------------6 */
+
+  #seventh-section {
+    width: 90%;
+  }
+}
+/* -------------------------RESPONSIVE TELEPHONE----------------------------------------6 */
+
+@media screen and (max-width: 425px) {
+  /* ------------------------HEADER TELEPHONE-----------------------------------------6 */
+
+  #header-title {
+    font-size: 3rem;
+    width: 100%;
+    padding: 10% 5%;
+  }
+  /* ----------------------PREMIERE SECTION TELEPHONE-------------------------------------------6 */
+
+  #first-section {
+    height: 100%;
+  }
+  .first-section__center {
+    flex-direction: column;
+    align-items: center;
+    bottom: 100px;
+  }
+  .first-section__img-background {
+    width: 100%;
+    height: 315px;
+  }
+  /* ----------------IMAGE DE LA FEMME TELEPHONE-------------------------------------------------6 */
+
+  .first-section__img-woman {
+    width: 350px;
+    height: 289px;
+    margin-bottom: 5%;
+  }
+  /* ------------------CARRE DE TEXTE TELEPHONE-----------------------------------------------6 */
+
+  .first-section__center__text {
+    width: 350px;
+    height: 289px;
+  }
+  /* -----------------DEUXIEME SECTION TELEPHONE------------------------------------------------6 */
+
+  .second-section__center {
+    flex-direction: column;
+    width: 100%;
+  }
+  /* --------------------TEXTE TELEPHONE---------------------------------------------6 */
+
+  .second-section__center__text {
+    width: 100%;
+    padding: 5%;
+    margin-bottom: 20px;
+  }
+  .second-section__center__text__title {
+    margin: 10% 10% 0;
+  }
+  .second-section__center__text-one {
+    margin: 3% 15% 0;
+  }
+  .second-section__center__text-two {
+    margin: 9% 2% 0;
+  }
+  /* --------------IMAGE TELEPHONE---------------------------------------------------6 */
+
+  .second-section__center__img {
+    width: 100%;
+    height: 351px;
+    padding: 0 5%;
+  }
+  /* ------------------TROISIEME SECTION TELEPHONE-----------------------------------------------6 */
+
+  #third-section {
+    padding: 10% 0;
+  }
+  .third-section__center {
+    width: 80%;
+  }
+  /* ----------------TEXTE TELEPHONE-------------------------------------------------6 */
+
+  .third-section__center__text-two {
+    margin: 3% 0 0;
+  }
+  /* --------------------CARDE AVEC SVG TELEPHONE---------------------------------------------6 */
+
+  .third-section__center__svg--card {
+    width: 100%;
+  }
+  /* -------------QUATRIEME SECTION TELEPHONE----------------------------------------------------6 */
+
+  #fourth-section {
+    flex-direction: column;
+  }
+  /* ----------------TEXTE TELEPHONE-------------------------------------------------6 */
+
+  .fourth-section__text {
+    width: 100%;
+    padding: 10% 3%;
+  }
+  /* ------------------IMAGE TELEPHONE-----------------------------------------------6 */
+
+  .fourth-section__img {
+    width: 100%;
+    height: 440px;
+  }
+  /* --------------------DEUXIEME TEXTE TELEPHONE---------------------------------------------6 */
+
+  .fourth-section__second-text {
+    width: 100%;
+  }
+  .fourth-section__GovernmentBuilding {
+    margin-top: 8%;
+  }
+  /* ----------------CINQUIEME SECTION TELEPHONE-------------------------------------------------6 */
+  /* -----------------TEXTE TELEPHONE------------------------------------------------6 */
+
+  .fifth-section__text {
+    padding: 10%;
+  }
+  /* -------------------IMAGE TELEPHONE----------------------------------------------6 */
+
+  .img {
+    width: 100%;
+  }
+  /* -----------------SIXIEME SECTION TELEPHONE------------------------------------------------6 */
+
+  .sixth-section__center {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .sixth-section__center__img,
+  .sixth-section__center__text {
+    width: 100%;
+  }
+  .sixth-section__center__text {
+    padding: 8% 2%;
+  }
+  /* ---------------SEPTIEME SECTION TELEPHONE--------------------------------------------------6 */
+
+  #seventh-section {
+    flex-direction: column;
+    width: 80%;
+    padding: 10% 0;
+  }
+  /* -------------------DEUXIEME FOOTER TELEPHONE----------------------------------------------6 */
+
+  .real-footer__text {
+    padding: 10%;
+  }
+}
